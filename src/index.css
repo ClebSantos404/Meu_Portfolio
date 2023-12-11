@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: rgb(0,157,255);
+  background: radial-gradient(circle, rgba(0, 157, 255, 0.527) 0%, rgba(0,123,199,1) 0%, rgba(0,139,225,1) 0%, rgba(0,48,78,1) 56%, rgba(0,0,0,1) 100%);
+}
+
+.linkFormat {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.iconColor {
+  color: #00df5e;
+  font-weight: bold;
+}
+/* ----------Header----------- */
+.cabecalho {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  background: #00000083;
+  z-index: 2;
+}
+
+@keyframes circleAnimation {
+  from {
+    padding: 10px;
+  }
+  to {
+    padding: 0;
+  }
+}
+
+.minhaImg {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  background-color: #03be511f;
+  animation-name: circleAnimation;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: 5;
+}
+
+.minhaImg img {
+  border-radius: 50%;
+  width: 90%;
+}
+
+.dropdown > button,
+.dropdown > button:focus {
+  background: transparent;
+  border: none;
+  color: transparent;
+  border-radius: 20px;
+}
+
+#vaga {
+  overflow: hidden;
+  border-right: 1px solid #000;
+  white-space: nowrap;
+  font-size: 24px;
+  animation: typing 4s steps(30, end);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@media screen and (min-width: 991px) {
+  #btnPrincipal {
+    margin: 12em 5em;
+  }
+}
+
+#btnPrincipal > a {
+  text-decoration: none;
+  line-height: 30px;
+  padding: 10px 20px;
+}
+
+.custom-btn {
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: inset 2px 2px 2px 0px #5adbb5, 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.btn-10 {
+  background: #0000006c;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.btn-10:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(.1);
+  transform: scale(.1);
+}
+
+.btn-10:hover {
+  color: #020101;
+  border: none;
+  background: transparent;
+}
+
+.btn-10:hover:after {
+  background: #00fffc;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#home {
+  flex-direction: row-reverse;
+  border-bottom: 1px solid #ffffff88;
+}
+
+/* ----------Sobre mim---------- */
+.text-sobre {
+  max-width: 700px;
+  width: 90%;
+}
+
+/* ----------Habilidades--------- */
+#habilidades {
+  animation: moveToRight 2s ease-in-out;
+  animation-delay: 1000ms;
+}
+
+#cards {
+  margin: 0 auto;
+}
+
+#card {
+  width: 9em;
+  height: 9em;
+  border-bottom: 1px solid aquamarine;
+  cursor: pointer;
+}
+
+@keyframes moveToRight {
+  0% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+#cardIcon {
+  font-size: 4em;
+}
+
+/* --------projetos--------- */
+.projetos {
+  animation: moveToRight 2s ease-in-out;
+  animation-delay: 1000ms;
+  padding: 100px 0;
+}
+
+.destaqueTxt {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-left: 5em;
+  border-bottom: 1px solid #00df5e;
+}
+
+@media screen and (max-width: 400px) {
+  .destaqueTxt {
+    margin-left: 2em;
+  }
+}
+
+.card {
+  border-radius: 0px;
+  width: 17em;
+  height: 8.4em;
+  background-color: rgba(0, 0, 0, 0.397);
+  color: #fff;
+  border-bottom: 1px solid aquamarine;
+  font-weight: 500;
+}
+
+.card img {
+  position: absolute;
+  z-index: -4;
+  left: 0;
+  top: 0;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0.2);
+}
+
+.iconeProjeto {
+  color: #00df5d93;
+  font-size: 1.4em;
+}
+
+.tituloCard {
+  padding: 75px 0;
+}
+
+.btnProjeto {
+  font-size: 0.7em;
+}
+
+.btnProjeto a {
+  cursor: pointer;
+}
+
+.btnProjeto a:hover {
+  background-color: #00df5d91;
+  color: #000;
+}
+
+/* -------Contato------- */
+#contato {
+  animation: moveToRight 2s ease-in-out;
+  animation-delay: 1000ms;
+  padding: 100px 0;
+}
+
+.contatoIconFormat {
+  border-radius: 30px;
+  color: #00df5e;
+  background-color: #00000041;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.contatoP-Format {
+  font-size: 12px;
+  color: #ffffff8a;
+}
+
+.contatoIcone {
+  margin-bottom: 30px;
+}
+
+/* ------Serviços--------- */
+#servicos {
+  animation: moveToRight 2s ease-in-out;
+  animation-delay: 1000ms;
+  padding-bottom: 2em;
+}
+
+#servicoCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardServicos {
+  min-width: 150px;
+  width: 80%;
+  height: 150px;
+  background: #00000059;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid aquamarine;
+}
