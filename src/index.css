@@ -146,11 +146,6 @@ body {
 }
 
 /* ----------Habilidades--------- */
-#habilidades {
-  animation: moveToRight 2s ease-in-out;
-  animation-delay: 1000ms;
-}
-
 #cards {
   margin: 0 auto;
 }
@@ -162,23 +157,12 @@ body {
   cursor: pointer;
 }
 
-@keyframes moveToRight {
-  0% {
-    transform: translateX(-400px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-
 #cardIcon {
   font-size: 4em;
 }
 
 /* --------projetos--------- */
 .projetos {
-  animation: moveToRight 2s ease-in-out;
-  animation-delay: 1000ms;
   padding: 100px 0;
 }
 
@@ -237,8 +221,6 @@ body {
 
 /* -------Contato------- */
 #contato {
-  animation: moveToRight 2s ease-in-out;
-  animation-delay: 1000ms;
   padding: 100px 0;
 }
 
@@ -261,8 +243,6 @@ body {
 
 /* ------Serviços--------- */
 #servicos {
-  animation: moveToRight 2s ease-in-out;
-  animation-delay: 1000ms;
   padding-bottom: 2em;
 }
 

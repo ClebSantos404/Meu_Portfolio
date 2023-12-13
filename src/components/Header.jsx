@@ -18,7 +18,7 @@ function Header() {
           <a href='https://github.com/ClebSantos404' target='_blank' className="destaquePort iconColor px-3" rel="noopener noreferrer">&#60;Portfólio&#47;&#62;</a>
         </div>
         <div className="dropdown">
-          <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle Menu">
           <IoIosMenu className='iconColor fs-3'></IoIosMenu>
           </button>
           <ul className="dropdown-menu dropdown-menu-dark">
