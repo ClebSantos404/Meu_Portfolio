@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Perfil from "../images/minhaFoto.png";
+import Perfil from "../images/minhaFoto.jpeg";
 import Curriculo from "../pdf/Cleb-Curriculo-programador.pdf"
 
 function Apresentacao() {

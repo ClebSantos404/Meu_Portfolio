@@ -1,9 +1,9 @@
 import React from "react";
 
-import projeto1 from "../images/projeto1.png";
-import projeto2 from '../images/projeto2.png';
-import projeto3 from '../images/projeto3.png';
-import projeto4 from '../images/projeto4.png';
+import projeto1 from "../images/projeto1.jpeg";
+import projeto2 from '../images/projeto2.jpeg';
+import projeto3 from '../images/projeto3.jpeg';
+import projeto4 from '../images/projeto4.jpeg';
 
 const Projetos = () => {
 
