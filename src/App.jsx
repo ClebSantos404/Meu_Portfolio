@@ -9,7 +9,7 @@ import Servicos from './components/Servicos';
 function App() {
 
   return (
-    <div className='mx-md-5 borda'>
+    <div>
       <Header></Header>
       <Apresentacao></Apresentacao>
       <Habilidades></Habilidades>
@@ -18,6 +18,6 @@ function App() {
       <Servicos></Servicos>
     </div>
   );
-}
+};
 
 export default App;

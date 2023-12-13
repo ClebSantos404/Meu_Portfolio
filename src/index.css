@@ -30,12 +30,15 @@ body {
   z-index: 2;
 }
 
-@keyframes circleAnimation {
-  from {
-    padding: 10px;
+@keyframes vibrar {
+  0% {
+    transform: scale(1);
   }
-  to {
-    padding: 0;
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
@@ -44,15 +47,17 @@ body {
   height: 230px;
   border-radius: 50%;
   background-color: #03be511f;
-  animation-name: circleAnimation;
-  animation-duration: 1s;
-  animation-delay: 2s;
-  animation-iteration-count: 5;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0.2);
 }
 
 .minhaImg img {
-  border-radius: 50%;
+  min-width: 200px;
   width: 90%;
+  height: 200px;
+  border-radius: 50%;
+  animation: vibrar 0.5s ease-in-out infinite;
+  animation-duration: 1.4s;
+  animation-delay: 3s;
 }
 
 .dropdown > button,
