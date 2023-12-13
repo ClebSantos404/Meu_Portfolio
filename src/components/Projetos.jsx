@@ -33,7 +33,7 @@ const Projetos = () => {
           <Cards linkGitProjeto={'https://github.com/ClebSantos404/Finans_page'} linkProjeto={'https://clebsantos404.github.io/Finans_page/'} imgProjeto={projeto1} nomeProjeto={'Finans - Finanças Pessoais'}></Cards>
           <Cards linkGitProjeto={'https://github.com/ClebSantos404/Lading-page-Jazz-School'} linkProjeto={'https://clebsantos404.github.io/Lading-page-Jazz-School/'} imgProjeto={projeto2} nomeProjeto={'Landing Page - Jazz School'}></Cards>
           <Cards linkGitProjeto={'https://github.com/ClebSantos404/Project-Mario'} linkProjeto={'https://clebsantos404.github.io/Project-Mario/'} imgProjeto={projeto3} nomeProjeto={'MarioMovieWeb'}></Cards>
-          <Cards linkGitProjeto={''} linkProjeto={''} imgProjeto={projeto4} nomeProjeto={'SnapClima API'}></Cards>
+          <Cards linkGitProjeto={'https://github.com/ClebSantos404/Snapclima'} linkProjeto={'https://clebsantos404.github.io/Snapclima/'} imgProjeto={projeto4} nomeProjeto={'SnapClima API'}></Cards>
         </div>
       </div>
     </section>
