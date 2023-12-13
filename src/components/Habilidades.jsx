@@ -20,7 +20,7 @@ const Habilidades = () => {
   function Cards(props, nomeTec, iconeTec) {
     return (
       <div id="card" className="text-center my-3 mx-2">
-      <h4>{props.nomeTec}</h4>
+      <h3 className="fs-5">{props.nomeTec}</h3>
       <div id="cardIcon">
         {props.iconeTec}
       </div>
